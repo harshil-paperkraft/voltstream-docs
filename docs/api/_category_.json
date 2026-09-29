@@ -1,0 +1,9 @@
+{
+  "label": "API reference",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "API reference",
+    "description": "Every endpoint, parameter and error. Base URL https://api.voltstream.io/v1."
+  }
+}

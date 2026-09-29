@@ -1,0 +1,66 @@
+/**
+ * Voltstream docs theme. One accent colour, generous line height, and a
+ * slightly quieter sidebar than the Docusaurus default.
+ */
+
+:root {
+  --ifm-color-primary: #1f6f5c;
+  --ifm-color-primary-dark: #1c6453;
+  --ifm-color-primary-darker: #1a5f4e;
+  --ifm-color-primary-darkest: #154e40;
+  --ifm-color-primary-light: #227a65;
+  --ifm-color-primary-lighter: #247f6a;
+  --ifm-color-primary-lightest: #2b9880;
+
+  --ifm-code-font-size: 92%;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.7;
+  --ifm-heading-font-weight: 600;
+  --ifm-navbar-shadow: none;
+  --ifm-navbar-border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  --docusaurus-highlighted-code-line-bg: rgba(31, 111, 92, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #5fc3a8;
+  --ifm-color-primary-dark: #48bb9b;
+  --ifm-color-primary-darker: #3db594;
+  --ifm-color-primary-darkest: #319579;
+  --ifm-color-primary-light: #76cbb5;
+  --ifm-color-primary-lighter: #81d0bc;
+  --ifm-color-primary-lightest: #a5dfd1;
+
+  --ifm-background-color: #16191c;
+  --docusaurus-highlighted-code-line-bg: rgba(95, 195, 168, 0.16);
+}
+
+.navbar {
+  border-bottom: var(--ifm-navbar-border-bottom);
+}
+
+.menu__link {
+  font-size: 0.9rem;
+}
+
+.markdown h2 {
+  margin-top: 2.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.markdown table {
+  display: table;
+  width: 100%;
+}
+
+.markdown table th {
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* Tighten the spacing inside admonitions a little. */
+.theme-admonition {
+  font-size: 0.9375rem;
+}
