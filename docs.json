@@ -42,7 +42,8 @@
             "pages": [
               "docs/tutorials/build-a-consumer",
               "docs/tutorials/migrate-from-polling",
-              "docs/tutorials/fan-out-to-many"
+              "docs/tutorials/fan-out-to-many",
+              "docs/tutorials/send-events-to-slack"
             ]
           },
           {
