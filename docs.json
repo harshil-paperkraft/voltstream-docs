@@ -1,0 +1,82 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Voltstream",
+  "description": "Events in. Delivered. Every time.",
+  "colors": {
+    "primary": "#1f6f5c",
+    "light": "#2b9880",
+    "dark": "#154e40"
+  },
+  "logo": "/static/img/logo.svg",
+  "favicon": "/static/img/favicon.ico",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Docs",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": ["docs/intro"]
+          },
+          {
+            "group": "Getting started",
+            "pages": [
+              "docs/getting-started/quickstart",
+              "docs/getting-started/installation",
+              "docs/getting-started/authentication"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "docs/guides/webhook-delivery",
+              "docs/guides/idempotency",
+              "docs/guides/event-filtering",
+              "docs/guides/rate-limits",
+              "docs/guides/replaying-events"
+            ]
+          },
+          {
+            "group": "Tutorials",
+            "pages": [
+              "docs/tutorials/build-a-consumer",
+              "docs/tutorials/migrate-from-polling",
+              "docs/tutorials/fan-out-to-many"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": ["docs/faq"]
+          }
+        ]
+      },
+      {
+        "tab": "API reference",
+        "groups": [
+          {
+            "group": "API reference",
+            "pages": [
+              "docs/api/overview",
+              "docs/api/streams",
+              "docs/api/events",
+              "docs/api/endpoints",
+              "docs/api/errors"
+            ]
+          }
+        ]
+      }
+    ],
+    "global": {
+      "anchors": [
+        { "anchor": "Status", "href": "https://status.voltstream.io", "icon": "signal" },
+        { "anchor": "GitHub", "href": "https://github.com/harshil-paperkraft/voltstream-docs", "icon": "github" }
+      ]
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/harshil-paperkraft/voltstream-docs"
+    }
+  }
+}
